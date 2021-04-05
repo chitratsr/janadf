@@ -1,0 +1,40 @@
+{
+	"name": "SqlServerTableSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "ProductCategoryKey",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ProductCategoryAlternateKey",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "EnglishProductCategoryName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SpanishProductCategoryName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "FrenchProductCategoryName",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DimProduct*"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
