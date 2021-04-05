@@ -1,0 +1,9 @@
+{
+	"name": "chitrademoltiADF",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a6e7ae84-a583-45ec-877c-dccfcecb4df2",
+		"tenantId": "249144ce-c2a7-4a15-9e88-4f6c33fd0466"
+	}
+}
