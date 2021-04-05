@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "chitrademoltiADF"
+		},
+		"AzureBlobStorageLS_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabaseLS_connectionString": {
+			"value": ""
+		},
+		"SqlServerLS_connectionString": {
+			"value": ""
+		},
+		"SqlServerLS_password": {
+			"value": ""
+		},
+		"SqlServerADV_connectionString": {
+			"value": ""
+		},
+		"SqlServerADV_password": {
+			"value": ""
+		},
+		"AzureSqlDatabaseDemoLS_connectionString": {
+			"value": ""
+		},
+		"SqlServerLS_properties_typeProperties_userName": {
+			"value": "DESKTOP-BO69FAU\\chitra"
+		},
+		"SqlServerADV_properties_typeProperties_userName": {
+			"value": "DESKTOP-BO69FAU\\chitra"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
